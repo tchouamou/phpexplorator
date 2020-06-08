@@ -12,7 +12,7 @@ You need just to copy the [index.php] in your document root of your web browser.
 You can also copy the [phpexplorator.class.php] in your document root and user the next code for your php script:
 
 
-<?php
+<\?php
  include_once(phpexplorator.class.php");
  $p1 = new phpexplorator();
  $p1->show();
