@@ -1,6 +1,8 @@
 # phpexplorator
-php web explorer
+php web explorer: 
 phpexplorator is a web interface to remote explore, manage, preview , edit, create, copy, rename, download, upload, zip, unzip ..etc, files, images, and directory in the server site. Integrated with TinyMce, useful for computer programmer and admin.
+It can preview images in all your disk, and download a folder in zip format. Explore your file remotely will be very fast and with more informations. Support preview of text files and images files. New functionalities are available. All was write in object oriented, you easily his class and integrate it in your personal application.
+Thank and use with caution this admin appplication.
 
 The Mini have the same code with the normal version but:
 The mini version is not multi-language
@@ -81,4 +83,39 @@ Your can also add a config.php file in the same directory with the next variable
         $PE_config["tinymce_aspx_file"] = "./tinymce/jscripts/tiny_mce/tiny_mce_gzip_aspx.js"; //--tinymce files need for aspx compression
         $PE_config["tinymce_cfm_file"] = "./tinymce/jscripts/tiny_mce/tiny_mce_gzip_cfm.js"; //--tinymce files need for cfm compression
         $PE_config["tinymce_js_file"] = "./tinymce/jscripts/tiny_mce/tiny_mce_gzip.js"; //--tinymce files need compression
-  
+        $PE_config["stream_path"] = "";
+        $PE_config["default_stream"] = "";
+        $PE_config["encoding"] = array(
+            'iso-8859-1',
+            'iso-8859-2',
+            'iso-8859-3',
+            'iso-8859-4',
+            'iso-8859-5',
+            'iso-8859-6',
+            'iso-8859-7',
+            'iso-8859-8',
+            'iso-8859-9',
+            'iso-8859-10',
+            'iso-8859-11',
+            'iso-8859-12',
+            'iso-8859-13',
+            'iso-8859-14',
+            'iso-8859-15',
+            'windows-1250',
+            'windows-1251',
+            'windows-1252',
+            'windows-1256',
+            'windows-1257',
+            'koi8-r',
+            'big5',
+            'gb2312',
+            'utf-16',
+            'utf-8',
+            'utf-7',
+            'x-user-defined',
+            'euc-jp',
+            'ks_c_5601-1987',
+            'tis-620',
+            'SHIFT_JIS'
+            );
+    
